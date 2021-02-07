@@ -16,7 +16,21 @@ const defaultConfig = {
   longPressDuration: 1500
 };
 
+/**
+ * CMButton class
+ */
 class CMButton extends EventEmitter {
+  /**
+   * CMButton class
+   * @param {number} pin ESP32 pin to which the button is connected
+   * @param {defaultConfig} config Configuration for button events
+   * @example
+   * defaultConfig = {
+   *   clickDuration: 350,
+   *   doubleClickDuration: 1000,
+   *   longPressDuration: 1500
+   * }
+   */
   constructor(pin, config = defaultConfig) {
     super();
 
