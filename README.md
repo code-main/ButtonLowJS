@@ -18,9 +18,9 @@ Customize duration of button events:
 
 ```javascript
 const btn = new CMButton(btnPin, {
-	clickDuration: 200,
-	doubleClickDuration: 750,
-	longPressDuration: 900
+  clickDuration: 200,
+  doubleClickDuration: 750,
+  longPressDuration: 900
 });
 ```
 
@@ -29,31 +29,31 @@ Listen for button events:
 - Press
 ```javascript
 btn.on('press', () => {
-	console.log('Pressed!');
+  console.log('Pressed!');
 });
 ```
 - Release
 ```javascript
 btn.on('release', () => {
-	console.log('Released!');
+  console.log('Released!');
 });
 ```
 - Click
 ```javascript
 btn.on('click', () => {
-	console.log('Clicked!');
+  console.log('Clicked!');
 });
 ```
 - Double Click
 ```javascript
 btn.on('doubleClicked', () => {
-	console.log('Double Clicked!');
+  console.log('Double Clicked!');
 });
 ```
 - Long Press
 ```javascript
 btn.on('longPress', () => {
-	console.log('Long Pressed!');
+  console.log('Long Pressed!');
 });
 ```
 
