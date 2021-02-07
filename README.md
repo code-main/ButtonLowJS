@@ -1,6 +1,6 @@
-## CMButton
+# CMButton
 
-### How to use
+## How to use
 
 ```javascript
 import CMButton from 'CMButton';
@@ -12,7 +12,7 @@ const btnPin = 4;
 const btn = new CMButton(btnPin);
 ```
 
-### Features
+## Features
 
 Customize duration of button events:
 
@@ -57,6 +57,6 @@ btn.on('longPress', () => {
 });
 ```
 
-### Scheme
+## Scheme
 
 ![](https://github.com/code-main/ButtonLowJS/blob/main/ButtonScheme.png?raw=true)
