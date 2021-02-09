@@ -1,0 +1,32 @@
+{
+  "name": "@codemain/buttonlowjs",
+  "version": "1.0.0",
+  "description": "Library to use a physical button with LowJS",
+  "main": "CMButton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-main/ButtonLowJS.git"
+  },
+  "files": [
+	"CMButton.js"
+  ],
+  "keywords": [
+    "lowjs",
+    "lowsync",
+    "codemain",
+    "js",
+    "javascript",
+    "button",
+    "arduino",
+    "esp32"
+  ],
+  "author": "Iván Pajón",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code-main/ButtonLowJS/issues"
+  },
+  "homepage": "https://github.com/code-main/ButtonLowJS#readme"
+}

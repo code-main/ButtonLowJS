@@ -2,14 +2,25 @@
 
 ## How to use
 
+```console
+foo@bar:~$ lowsync install @codemain/buttonlowjs
+-- OR
+foo@bar:~$ npm install @codemain/buttonlowjs
+```
+
 ```javascript
-import CMButton from 'CMButton';
+import CMButton from '@codemain/buttonlowjs';
 
 // ESP32 pin to which the button is connected
 const btnPin = 4;
 
 // Instantiate CMButton class
 const btn = new CMButton(btnPin);
+
+// Listen for click event
+btn.on('click', () => {
+  console.log('Clicked!');
+});
 ```
 
 ## Features
