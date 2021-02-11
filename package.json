@@ -1,8 +1,8 @@
 {
   "name": "@codemain/buttonlowjs",
-  "version": "1.0.1",
+  "version": "1.0.1-updated5",
   "description": "Library to use a physical button with LowJS",
-  "main": "CMButton.min.js",
+  "main": "CMButton_min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/code-main/ButtonLowJS.git"
   },
   "files": [
-	  "CMButton.min.js"
+	  "CMButton_min.js"
   ],
   "keywords": [
     "lowjs",

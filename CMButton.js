@@ -12,7 +12,7 @@ import EventEmitter from 'events';
  */
 const defaultConfig = {
   clickDuration: 350,
-  doubleClickDuration: 1000,
+  doubleClickDuration: 900,
   longPressDuration: 1500
 };
 
