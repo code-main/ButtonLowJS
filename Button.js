@@ -17,11 +17,11 @@ const defaultConfig = {
 };
 
 /**
- * CMButton class
+ * Button class
  */
-class CMButton extends EventEmitter {
+class Button extends EventEmitter {
   /**
-   * CMButton class
+   * Button class
    * @param {number} pin ESP32 pin to which the button is connected
    * @param {defaultConfig} config Configuration for button events
    * @example
@@ -122,4 +122,4 @@ class CMButton extends EventEmitter {
   }
 }
 
-export default CMButton;
+export default Button;

@@ -1,10 +1,10 @@
-import CMButton from './CMButton';
+import Button from './Button';
 
 // ESP32 pin to which the button is connected
 const btnPin = 4;
 
-// Instantiate CMButton class
-const btn = new CMButton(btnPin);
+// Instantiate Button class
+const btn = new Button(btnPin);
 
 // Listen for click event
 btn.on('click', () => {

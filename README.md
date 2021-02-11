@@ -1,4 +1,4 @@
-# CMButton
+# ButtonLowJS
 
 ## How to use
 
@@ -9,13 +9,13 @@ foo@bar:~$ npm install @codemain/buttonlowjs
 ```
 
 ```javascript
-import CMButton from '@codemain/buttonlowjs';
+import Button from '@codemain/buttonlowjs';
 
 // ESP32 pin to which the button is connected
 const btnPin = 4;
 
-// Instantiate CMButton class
-const btn = new CMButton(btnPin);
+// Instantiate Button class
+const btn = new Button(btnPin);
 
 // Listen for click event
 btn.on('click', () => {
@@ -28,7 +28,7 @@ btn.on('click', () => {
 Customize duration of button events:
 
 ```javascript
-const btn = new CMButton(btnPin, {
+const btn = new Button(btnPin, {
   clickDuration: 200,
   doubleClickDuration: 750,
   longPressDuration: 900
